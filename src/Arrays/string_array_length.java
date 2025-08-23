@@ -6,7 +6,7 @@ public class string_array_length {
             strarr[0] = "My String";
 
             String[] newstrarr = {"first", "second", "third"};
-            System.out.println(newstrarr.length);
+            System.out.println(newstrarr.length );
     }
 
 }
