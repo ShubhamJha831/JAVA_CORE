@@ -21,6 +21,9 @@ public class Array_2D {
 
             }
             System.out.println();
+
+
+
             i++;
         }
 
