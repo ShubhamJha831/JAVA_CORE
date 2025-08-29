@@ -40,7 +40,7 @@ class Book {
             if(isBorrowed){
             System.out.println("Book is already borrowed");
             }else{
-            this.isBorrowed = false;
+            this.isBorrowed = true;
             System.out.println("Enjoy" + " " + this.title);
             }
 
