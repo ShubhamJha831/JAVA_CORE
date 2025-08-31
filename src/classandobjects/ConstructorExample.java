@@ -2,7 +2,7 @@ package classandobjects;
 
 public class ConstructorExample {
     // Example on Constructors
-    class Student {
+    static class Student {   // made it static so we can create objects in main easily
         String name;
         int age;
 
@@ -26,17 +26,14 @@ public class ConstructorExample {
         }
     }
 
-    // Main Class
-    public class ConstructorExample {
-        public static void main(String[] args) {
-            // Calls no-argument constructor
-            Student s1 = new Student();
-            s1.display();
+    // Main method
+    public static void main(String[] args) {
+        // Calls no-argument constructor
+        Student s1 = new Student();
+        s1.display();
 
-            // Calls parameterized constructor
-            Student s2 = new Student("Shubham", 21);
-            s2.display();
-        }
+        // Calls parameterized constructor
+        Student s2 = new Student("Shubham", 21);
+        s2.display();
     }
-
 }
