@@ -25,5 +25,4 @@ import java.util.*;
             System.out.println(hasDuplicate(nums3)); // true
         }
 
-
 }
