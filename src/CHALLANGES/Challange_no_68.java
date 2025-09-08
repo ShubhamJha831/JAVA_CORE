@@ -9,10 +9,11 @@ public class Challange_no_68 {
         System.out.println("Enter the number of elements to be printed: ");
         int count = inpput.nextInt();
         for (int i = 1; i <= count; i++){
-            System.out.print(fibonacci(i)+ " ");
+            System.out.println(fibonacci(i)+ " ");
         }
     }
     public static int fibonacci(int position){
+        System.out.print(".");
         if (position == 1){
             return 0;
         }
