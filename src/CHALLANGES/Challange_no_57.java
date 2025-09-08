@@ -13,8 +13,8 @@ public class Challange_no_57 {
 
     }
 
-    public static void newSwitch(int day) {
-        String monthstr = switch (day) {
+    public static void newSwitch(int month) {
+        String monthstr = switch (month) {
             case 1 -> "January";
             case 2 -> "February";
             case 3 -> "March";
