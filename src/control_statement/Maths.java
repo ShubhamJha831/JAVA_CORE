@@ -6,7 +6,7 @@ public class Maths {
         System.out.println(Math.ceil(4.1));
         System.out.println(Math.floor(5.7));
         System.out.println(Math.round(5.07));
-        System.out.println(Math.random());
+        System.out.println(Math.PI);
 
         for (int i = 0; i < 10; i++){
             double rendom =(int) Math.round(Math.random() * 10000);
