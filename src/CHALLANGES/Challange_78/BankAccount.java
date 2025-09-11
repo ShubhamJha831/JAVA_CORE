@@ -1,4 +1,4 @@
-package Challange_78;
+package CHALLANGES.Challange_78;
 class BankAccount {
     private String accountNumber;
 

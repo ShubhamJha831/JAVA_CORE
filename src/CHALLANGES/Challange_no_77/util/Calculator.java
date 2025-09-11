@@ -1,7 +1,7 @@
-package Challange_no_77.util;
+package CHALLANGES.Challange_no_77.util;
 
-import Challange_no_77.geometry.Circle;
-import Challange_no_77.geometry.Rectangle;
+import CHALLANGES.Challange_no_77.geometry.Circle;
+import CHALLANGES.Challange_no_77.geometry.Rectangle;
 
 public class Calculator {
 
