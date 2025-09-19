@@ -1,6 +1,4 @@
-package Abstractionandpolymorphism.polymorphism;
-
-import java.sql.SQLOutput;
+package oops.Abstractionandpolymorphism.polymorphism;
 
 public class Car implements Vehicle {
 
