@@ -39,6 +39,9 @@ public class Calculator {
         }catch (Throwable th){
             System.out.println("Something went wrong");
             throw th;
+        } finally {
+            System.out.println("I am in finally");
+
         }
     }
 }
