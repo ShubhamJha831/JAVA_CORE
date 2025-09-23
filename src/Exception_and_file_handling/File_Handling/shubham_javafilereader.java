@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class shubham_javafilereader {
     public static void main(String[] args) {
-        String fileName = "java-cource.txt";
+        String fileName = "java_course.txt ";
 
         try (FileReader reader = new FileReader(fileName)) {
             int read;
