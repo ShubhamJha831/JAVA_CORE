@@ -1,6 +1,4 @@
-package CollectionandGenerics;
-
-import java.sql.SQLOutput;
+package CollectionandGenerics.VerAgrs;
 
 public class Verargs{
     public static void main(String[] args) {
